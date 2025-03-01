@@ -56,23 +56,31 @@
         }
 
         .birthday-messages {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .message-box {
             background-color: #fff;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            margin: 30px 0;
             animation: fadeInUp 2s ease-out;
+            max-width: 900px;
+            margin: 0 auto;
         }
 
-        .birthday-messages h2 {
+        .message-box h2 {
             font-size: 2.5em;
             color: #ff6347;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
-        .message {
+        .message-box p {
             font-size: 1.2em;
-            margin: 15px 0;
             color: #555;
             line-height: 1.6;
         }
@@ -134,43 +142,28 @@
 <div class="container">
     <div class="photo-gallery">
         <!-- Replace with your photos -->
-        <img src="https://cdn.discordapp.com/attachments/1339304344629153892/1340807484742565968/image.png?ex=67c385c7&is=67c23447&hm=003383b5efe5f83d1ce25ec5c26d2dcd3bf4b66f460a5de56acceb551521fff7&" alt="Birthday photo 1">
-        <img src="https://cdn.discordapp.com/attachments/1339304344629153892/1340797146236059782/image.png?ex=67c37c26&is=67c22aa6&hm=7dfb5ae8a4435285192cb636264221fad6c5b5dbf476dab950d4da6342a64e50&" alt="Birthday photo 2">
-        <img src="https://cdn.discordapp.com/attachments/1339304344629153892/1340031369773977641/image-65.png?ex=67c355f7&is=67c20477&hm=0871f0ffdff67184adcba89c47fdde24b306d00f68695d2bcf4ca744be6c5424&" alt="Birthday photo 3">
+        <img src="photo1.jpg" alt="Birthday photo 1">
+        <img src="photo2.jpg" alt="Birthday photo 2">
+        <img src="photo3.jpg" alt="Birthday photo 3">
         <!-- Add more photos as needed -->
     </div>
 
     <div class="birthday-messages">
-        <h2>Birthday Messages</h2>
-        <div class="message">
-            <p>EKAM bff, I hope you have the best day ever. Playing Korean food games with you is so fun. I've known you ever since my first staff era. Youre so nice(even tho you call me ROOD) you are so sweet. Have a great day!!- MILO</p>
+        <!-- Pre-filled Messages -->
+        <div class="message-box">
+            <h2>Message #1</h2>
+            <p>Happy Birthday Ekam! You're an incredible person, and I'm so lucky to have you in my life. I hope your day is as amazing as you are! 💖</p>
         </div>
-        <div class="message">
-            <p>omgmgomgomgmgmg MY BESTIE BDAYYYY
-
-i honestly love you so much ekam ive loved every time of the ONE WHOLE YEAR WE'VE BEEN FRIENDS 😍😍😍😍🤞🤞🤞 and i hope that will continue to MORE yearS 😼
-
-i keep getting memories of when we did our catch the pedo case which was actually one of the funniest things I've ever done and i still laugh at it to this day (we got that hoe red handed😼😼) and then there's also our chav and emo days back at hargrave goodness me that was long ago. that still haunts me to this day and i don't think i will ever get away from the emo allegations since then 🤬😡 PLSSSSS i miss our first staff eras together miss g aster and miss e kaycee-morris ate that school up (we didn't know what we were doing half the time😬) AND THEN THERES ALSO THE ODD TIMES WITH TOM. plspssllsss that was honestly so hilarious in the weirdest way possible and i wish I had more screenshots of that ro teaching era between you two which i will agree was very odd on his end but it was still hilarious😈 to be honest we both actually need to touch grass i fear we are too addicted to robloxing whether it's pretending to be babies and sneaking into people's houses and trying to find a family OR going to restaurants and eating our big backs out 🐷🐷🐷 EITHER WAY THEYRE ALL HILARIOUS RAHHHHHH
-
-anyway hope you have the best birthday and eat as much as you deserve as we all know you want to😊😊 leave some cake for the rest of us fatty 
-
-another year of being fat🎂🎉🥳
-
-SIGNED
-your gracekins daughter the favourite child if we still consider that other specimen one.</p>
-
-<div class="message">
-            <p>EKAMMMMMMMMMMMM!!! 🥹 BESTIE I LVOE YOUR ACCOMPANY SOSOSOO MUCH AND I HONESTLY HOPE WE WONT EVER STOP HAVING OUR LITTLE CHIT-CAHTS HERE AND THERE
-
-LOOOOOOOOOOVE WORKING WITH YOU IN BSU AND WORKING WITH YOU OVERALL 💞 
-HAVE THE HAPPIEST BDAY EEEEEEEEEEEEVVVVVVVEEEEEEEEERRRR AND REST TODAYYY 🍰- MARKO</p>
+        <div class="message-box">
+            <h2>Message #2</h2>
+            <p>Ekam, you deserve all the love and happiness today and every day! May this year be filled with new adventures and endless joy. 🎉</p>
         </div>
-        
+        <!-- Add more messages as you like -->
     </div>
 </div>
 
 <footer>
-    <p>Created with love by Milo, lots of love from the rest</p>
+    <p>Created with love by Milo</p>
 </footer>
 
 <div class="confetti" id="confetti">
@@ -191,4 +184,5 @@ HAVE THE HAPPIEST BDAY EEEEEEEEEEEEVVVVVVVEEEEEEEEERRRR AND REST TODAYYY 🍰- M
 
 </body>
 </html>
+
 
